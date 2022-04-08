@@ -1,0 +1,38 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+.display-2{
+    margin-bottom: 2rem;
+
+    @include media-breakpoint-down(lg){
+        margin-left: 1em;
+    }
+    margin-left: 7rem;
+    
+    &--intro{
+        display: inline-block;
+        font-weight: 700;
+    }
+
+    &--description{
+        font-size: 1.4rem;
+        display: block;
+        margin-top: 2rem;
+
+    }
+
+}
+
+.btn-2{
+    margin-left: 15rem;
+}
+
+
+.companies{
+    margin-top: -1%;
+    h4{
+        margin-top: 2em;
+        font-size: 2rem;
+        margin-bottom: 3rem;
+    }
+}

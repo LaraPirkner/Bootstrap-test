@@ -1,0 +1,22 @@
+@use '../custom' as *;
+
+.companies{
+    background-color: $primary;
+
+    &__logo-box{
+        text-align: center;
+        position: relative;
+    
+
+        img{
+            height: 5rem;
+            width: 5rem;
+            margin-bottom: 1rem;
+            
+
+            &:hover {
+                filter: grayscale(120);
+            }
+        }
+    }
+}
